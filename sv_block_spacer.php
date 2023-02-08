@@ -9,9 +9,4 @@
 				->set_block_name('core/spacer')
 				->set_css_cache_active();
 		}
-		
-		protected function load_settings(): sv_block_spacer {
-
-			return $this;
-		}
 	}
